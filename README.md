@@ -1,4 +1,4 @@
-# ts-cli-products
+
 # TypeScript CLI Products CRUD
 
 ## Description

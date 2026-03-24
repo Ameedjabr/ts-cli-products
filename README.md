@@ -5,6 +5,13 @@
 
 This project is a CLI (Command Line Interface) application built using TypeScript, Sequelize ORM, and PostgreSQL. It allows users to perform CRUD operations (Create, Read, Update, Delete) on a products database.
 
+##Requirements
+
+Make sure you have the following installed:
+* Node.js (v18 or higher)
+* PostgreSQL (v13 or higher)
+* Yarn (v1.x)
+
 ## Technologies
 
 * Node.js
@@ -13,6 +20,7 @@ This project is a CLI (Command Line Interface) application built using TypeScrip
 * PostgreSQL
 * Commander
 * dotenv
+
 
 ## Setup
 
@@ -26,7 +34,7 @@ cd ts-cli-products
 2. Install dependencies:
 
 ```
-npm install
+Yarn install
 ```
 
 3. Create a `.env` file:
@@ -46,7 +54,7 @@ DB_PORT=5432
 Run commands using:
 
 ```
-npx tsx src/index.ts <command>
+yarn start <command>
 ```
 
 ## Commands
@@ -60,25 +68,25 @@ npx tsx src/index.ts list
 * Add product:
 
 ```
-npx tsx src/index.ts add "Laptop" 999.99
+yarn start add "Laptop" 999.99
 ```
 
 * Get product:
 
 ```
-npx tsx src/index.ts get 1
+yarn start get 1
 ```
 
 * Update product:
 
 ```
-npx tsx src/index.ts update 1 "Laptop Updated" 1200
+yarn start update 1 "Laptop Updated" 1200
 ```
 
 * Delete product:
 
 ```
-npx tsx src/index.ts delete 1
+yarn start delete 1
 ```
 
 ## Author

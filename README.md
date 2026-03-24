@@ -5,7 +5,7 @@
 
 This project is a CLI (Command Line Interface) application built using TypeScript, Sequelize ORM, and PostgreSQL. It allows users to perform CRUD operations (Create, Read, Update, Delete) on a products database.
 
-##Requirements
+## Requirements
 
 Make sure you have the following installed:
 * Node.js (v18 or higher)
